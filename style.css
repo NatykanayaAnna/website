@@ -20,12 +20,15 @@ body{
     color: #9C9C9C;
 }
 
-
+.header{
+    padding-top: 40px;
+}
 .container{
     max-width: 1230px;
     margin: 0 auto;
     padding: 0px 15px;
 }
+
 .header__container{
     display: flex;
     align-items: center;
@@ -590,6 +593,56 @@ transform: translateY(-50%);
     width: 24px;
     height: 24px;
 }
+
+
+
+
+
+/* SERVICES PAGE */
+
+
+.hero-section {
+    padding: 97px 100px;
+}
+.hero-section__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 140%;
+    color: #000000;
+    text-align: center;
+}
+.hero-section__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+    margin: 36px 0 57px;
+}
+.hero-section__img {
+    max-width: 1200px;
+}
+.achievement-section {
+    padding-bottom: 100px;
+}
+.avhievement-section__img {
+    max-width: 746px;
+    margin: 40px 120px 0 0;
+}
+.avhievement-section-desc__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #333333;
+}
+.avhievement-section-desc__text {
+    max-width: 334px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+
 
 
 @media screen and (max-width: 1170px){
